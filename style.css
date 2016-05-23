@@ -1,0 +1,236 @@
+html, body { 
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+/* ------ Parties principales ------ */
+
+#header {
+	position: relative;
+	padding-top: 150px;
+	background-image: url(img/header.png);
+	background-size: 100%;
+	width: 100%;
+	opacity: 0.5;
+}
+
+#navigation {
+	position: fixed;
+	top:180px;
+	width:225px;
+	padding-left: 0px;
+	padding-right: 5px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-color: #BDBDBD;
+	border-width: 2px;
+	border-style: solid;
+	border-left-width: 0px;
+	background-color: #F7F9FA;
+}
+
+#corps {
+	position: relative;
+	top:20px;
+	left:240px;
+	right:0px;
+	max-width: calc(100% - 240px);
+}
+
+#footer {
+	position: relative;
+	top: 23px;
+	width: 100%;
+	margin: 3px;
+	padding: 0px;
+	border-width: 2px;
+	border-style: none;
+	border-top-style: solid;
+	border-color: #BDBDBD;
+	background-color: #F7F9FA;
+	max-width: calc(100% - 3px);
+}
+
+#telechargement {
+
+}
+
+/* ------ Parties secondaires ------ */
+
+/* --- Elements --- */
+
+ul {
+	padding-left: 20px;
+}
+
+li {
+	padding-left: 13px;
+	list-style-image: url(img/puce_triangle.jpg);
+	list-style-position: inside;
+	font-size: 14px;
+}
+
+li.titre {
+	padding-left:0px;
+	list-style-image: none;
+	list-style-type: none;
+	font-size: 17px;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+a:active {
+	color: black;
+	text-decoration: none;
+}
+
+h3 {
+	text-indent: 50px;
+	font-size: 23px;
+	text-decoration: underline;
+}
+
+p {
+	padding-left:20px;
+	max-width: 80%;
+}
+
+img {
+	margin: 10px;
+}
+
+div.encadrement {
+	border-color: #BDBDBD;
+	border-width: 2px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-style: dashed;
+	padding-left: 15px;
+	max-width: 80%;
+}
+
+table {
+	margin-bottom: 5px;
+	border-style: none;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	width: 70%;
+	border-width: 1px;
+	border-bottom-left-radius: 10px;
+	background-color: #FAFAFA;
+}
+
+table.formules {
+	padding-left: 30px;
+}
+
+table.formulaire {
+	border-width: 2px;
+	padding: 15px;
+	margin: 15px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: #BDBDBD;
+}
+
+th {
+	border-style: none;
+	font-size: 18px;
+	border-width: 1px;
+}
+
+td {
+	border-style: none;
+	padding: 5px;
+	border-width: 1px;
+}
+
+td.label {
+	text-align:right;
+}
+
+td.titressecondaires {
+	font-weight: bold;
+	border-bottom-style: dashed;
+	border-color: gray;
+}
+
+td.prix {
+	border-top-style: solid;
+	border-left-style: solid;
+	padding: 10px;
+}
+
+span {
+	font-size:12px;
+}
+
+span.retourhautdepage {
+	font-size: initial;
+}
+
+span.retourhautdepage:hover {
+	text-decoration: underline;
+	font-size: initial;
+}
+
+a.telechargement {
+	margin: 100px;
+	padding: 10px;
+	color: blue;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+/* --- ID --- */
+
+#textheader {
+	position: absolute;
+	top: 105px;
+	left: 50px;
+	background-color: transparent;
+	font-size: 9px;
+	font-style: italic;
+	font-weight: bold;
+	color: #175CA9;
+	letter-spacing: 0.1px;
+	position: center;
+}
+
+#logo {
+	position: absolute;
+	left: 10px;
+}
+
+#boutonretour {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	opacity:0;
+}
+
+
+#w3c { 
+	position: relative;
+	float: left;
+	top: 20px;
+}
+
+#telechargement {
+	padding: 50px;
+}
